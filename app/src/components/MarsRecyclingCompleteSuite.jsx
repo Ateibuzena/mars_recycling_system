@@ -164,9 +164,9 @@ Date: ${new Date().toLocaleDateString()}
     const ProcessCard = ({ title, subtitle }) => {
       return (
         <div className="p-3 rounded-lg text-center w-48 bg-gradient-to-br from-indigo-600 to-purple-800 text-white shadow-lg">
-        <div className="text-sm font-semibold">{title}</div>
-        <div className="text-xs opacity-80 mt-1">{subtitle}</div>
-      </div>
+          <div className="text-sm font-semibold">{title}</div>
+          <div className="text-xs opacity-80 mt-1">{subtitle}</div>
+        </div>
       );
     };
 
@@ -192,14 +192,12 @@ Date: ${new Date().toLocaleDateString()}
       <div className="space-y-6">
         <div className="bg-gradient-to-br from-red-900 to-black p-6 rounded-lg border-2 border-red-500">
           <h2 className="text-3xl font-bold mb-6 text-center text-red-300">Visual System Concept</h2>
-          
-          
 
           {/* New Workflow Section */}
           <div className="bg-gray-900 p-6 rounded-lg mb-6 border border-gray-700">
-            <h3 className="text-xl font-bold text-yellow-300 mb-2">Workflow — Entrada ↓ Proceso ↓ Salida</h3>
+            <h3 className="text-xl font-bold text-yellow-300 mb-2">Workflow — Input ↓ Process ↓ Output</h3>
             <p className="text-sm text-gray-400 mb-6">
-              Diagrama vertical con flechas que muestra qué entra y qué sale, mapeado a 3 proyectos utilizables.
+              Vertical diagram with arrows showing what goes in and what comes out, mapped to 3 usable projects.
             </p>
 
             <div className="flex flex-col items-center gap-6">
@@ -217,21 +215,21 @@ Date: ${new Date().toLocaleDateString()}
                 </div>
               </div>
 
-              {/* Flecha ↓ */}
+              {/* Arrow ↓ */}
               <ArrowDown className="w-6 h-6 text-yellow-400" />
 
               {/* PROCESS STAGE 1 */}
-              <ProcessCard title="Sorting" subtitle="Separa por tipo" />
+              <ProcessCard title="Sorting" subtitle="Separates by type" />
 
               <ArrowDown className="w-6 h-6 text-yellow-400" />
 
               {/* PROCESS STAGE 2 */}
-              <ProcessCard title="Processing (6 units)" subtitle="Transformación en materiales útiles" />
+              <ProcessCard title="Processing (6 units)" subtitle="Transformation into useful materials" />
 
               <ArrowDown className="w-6 h-6 text-yellow-400" />
 
               {/* OUTPUT */}
-              <ProcessCard title="Output" subtitle="Productos usables" />
+              <ProcessCard title="Output" subtitle="Usable products" />
 
               {/* Mapping outputs */}
               <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
@@ -256,13 +254,14 @@ Date: ${new Date().toLocaleDateString()}
               </div>
 
               <div className="mt-4 text-xs text-gray-400 text-center">
-                Nota: los objetos mostrados son ejemplos directos de los outputs del sistema y pueden asignarse a cada proyecto para implementación inmediata.
+                Note: the items shown are direct examples of the system outputs and can be assigned to each project for immediate implementation.
               </div>
             </div>
           </div>
 
-
-          <footer className="mt-6 text-center text-xs text-gray-500">Hecho en estilo NASA-dark. Exporta cada sección para usar en presentaciones profesionales.</footer>
+          <footer className="mt-6 text-center text-xs text-gray-500">
+            Made in NASA-dark style. Export each section for use in professional presentations.
+          </footer>
         </div>
       </div>
     );
