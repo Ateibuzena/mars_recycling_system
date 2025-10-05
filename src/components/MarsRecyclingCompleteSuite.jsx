@@ -389,7 +389,7 @@ Date: ${new Date().toLocaleDateString()}
             </div>
             <div>
               <h1 className="text-2xl font-extrabold">Mars Waste Recycling — Visual Canva</h1>
-              <p className="text-sm text-gray-400">4 slides listos para exportar como imágenes. Click derecho → "Guardar imagen como..."</p>
+              <p className="text-sm text-gray-400">4 slides ready to export as images. Right-click → "Save Image As..."</p>
             </div>
           </div>
           <div className="text-right text-sm text-gray-400">Mission: Jezero Crater • Crew: 8 • Duration: 3 years</div>
@@ -399,7 +399,7 @@ Date: ${new Date().toLocaleDateString()}
         <section className="bg-gradient-to-br from-red-900/10 to-black/40 rounded-2xl p-8 border border-red-800 shadow-2xl">
           <div className="flex flex-col md:flex-row gap-6">
             <div className="md:flex-1">
-              <h2 className="text-xl font-bold text-yellow-300">Slide 1 — Sistema Completo · Flujo de Materiales</h2>
+              <h2 className="text-xl font-bold text-yellow-300">Slide 1 — Complete System · Material Flow</h2>
 
               <div className="mt-6 p-6 bg-gray-900 rounded-xl border border-gray-700">
                 {/* Flow */}
@@ -460,8 +460,8 @@ Date: ${new Date().toLocaleDateString()}
 
         {/* Slide 2 */}
         <section className="bg-gradient-to-br from-black/40 to-gray-900/40 rounded-2xl p-8 border border-gray-700 shadow-2xl">
-          <h2 className="text-xl font-bold text-yellow-300">Slide 2 — Sistemas de Procesamiento</h2>
-          <p className="text-sm text-gray-400 mt-2">Seis unidades en tarjetas con iconos, eficiencia y código de color para distinguir.</p>
+          <h2 className="text-xl font-bold text-yellow-300">Slide 2 — Processing System</h2>
+          <p className="text-sm text-gray-400 mt-2">Six units on cards with icons, efficiency and color coding for distinction.</p>
 
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-6 gap-4">
             {PROCESS_UNITS.map(unit => (
@@ -473,11 +473,11 @@ Date: ${new Date().toLocaleDateString()}
                   <div>
                     <div className="text-sm text-gray-200 font-semibold">{unit.id}</div>
                     <div className="text-2xl font-extrabold mt-1">{unit.eff}%</div>
-                    <div className="text-xs text-gray-300 mt-1">Eficiencia del proceso</div>
+                    <div className="text-xs text-gray-300 mt-1">Process Efficiency</div>
                   </div>
                 </div>
 
-                <div className="mt-4 text-xs text-gray-300">Detalles: footprint compacto, integración modular, operación automatizada.</div>
+                <div className="mt-4 text-xs text-gray-300">Details: compact footprint, modular integration, automated operation.</div>
               </div>
             ))}
           </div>
@@ -485,8 +485,8 @@ Date: ${new Date().toLocaleDateString()}
 
         {/* Slide 3 */}
         <section className="bg-gradient-to-br from-black/30 to-gray-900/30 rounded-2xl p-8 border border-gray-700 shadow-2xl">
-          <h2 className="text-xl font-bold text-yellow-300">Slide 3 — Flujo de Trabajo Operacional</h2>
-          <p className="text-sm text-gray-400">Calendario semanal con actividades y duración total de tripulación destacada.</p>
+          <h2 className="text-xl font-bold text-yellow-300">Slide 3 — Operational Workflow</h2>
+          <p className="text-sm text-gray-400">Weekly calendar with activities and total duration of featured crew.</p>
 
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-gray-900 p-4 rounded-lg border border-gray-700">
@@ -495,20 +495,20 @@ Date: ${new Date().toLocaleDateString()}
 
             <div className="bg-gray-900 p-4 rounded-lg border border-gray-700 flex flex-col justify-between">
               <div>
-                <h3 className="text-lg font-semibold text-gray-200">Resumen de trabajo</h3>
-                <p className="text-sm text-gray-400 mt-2">Total destacado: <span className="font-bold text-white">6 horas/semana</span> de trabajo de tripulación necesario para operaciones y mantenimiento.</p>
+                <h3 className="text-lg font-semibold text-gray-200">Work summary</h3>
+                <p className="text-sm text-gray-400 mt-2">Total: <span className="font-bold text-white">6 hours/week</span> of crew work required for operations and maintenance.</p>
 
                 <ul className="mt-4 text-sm text-gray-300 space-y-2">
-                  <li>• 2h — Supervisión de sistema y carga de material</li>
-                  <li>• 2h — Verificación de calidad & recolección de productos</li>
-                  <li>• 1h — Mantenimiento preventivo</li>
-                  <li>• 1h — Monitoreo remoto y reportes</li>
+                  <li>• 2h — System supervision and material loading</li> 
+                  <li>• 2h — Quality verification & product collection</li> 
+                  <li>• 1h — Preventive maintenance</li> 
+                  <li>• 1h — Remote monitoring and reporting</li>
                 </ul>
               </div>
 
               <div className="mt-4 p-3 rounded-lg bg-black/20 border border-gray-700">
-                <div className="text-sm text-gray-300">Tip para exportar:</div>
-                <div className="text-xs text-gray-400">Haz click derecho sobre la sección y utiliza "Guardar imagen como..." o toma una captura para PowerPoint/Keynote.</div>
+                <div className="text-sm text-gray-300">Tip for exporting:</div>
+                <div className="text-xs text-gray-400">Right-click on the section and use "Save Image As..." or take a screenshot for PowerPoint/Keynote.</div>
               </div>
             </div>
           </div>
@@ -516,12 +516,12 @@ Date: ${new Date().toLocaleDateString()}
 
         {/* Slide 4 */}
         <section className="bg-gradient-to-br from-green-900/10 to-black/30 rounded-2xl p-8 border border-gray-700 shadow-2xl">
-          <h2 className="text-xl font-bold text-yellow-300">Slide 4 — Productos y Outputs</h2>
-          <p className="text-sm text-gray-400 mt-2">Productos organizados por categoría, cantidades y pesos totales.</p>
+          <h2 className="text-xl font-bold text-yellow-300">Slide 4 — Products and Outputs</h2>
+          <p className="text-sm text-gray-400 mt-2">Products organized by category, quantities and total weights.</p>
 
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-gray-900 p-4 rounded-lg border border-gray-700">
-              <h3 className="text-lg font-semibold text-gray-200">Categorías</h3>
+              <h3 className="text-lg font-semibold text-gray-200">Categories</h3>
               <div className="mt-4 space-y-3">
                 {PRODUCTION.slice(0,4).map(p => (
                   <div key={p.category} className="flex items-center justify-between">
@@ -536,15 +536,15 @@ Date: ${new Date().toLocaleDateString()}
             </div>
 
             <div className="bg-gray-900 p-4 rounded-lg border border-gray-700">
-              <h3 className="text-lg font-semibold text-gray-200">Resumen Final</h3>
+              <h3 className="text-lg font-semibold text-gray-200">Final Summary</h3>
               <div className="mt-4">
                 <div className="text-4xl font-extrabold">25,576</div>
-                <div className="text-sm text-gray-300 mt-1">items producidos</div>
+                <div className="text-sm text-gray-300 mt-1">items produced</div>
 
                 <div className="mt-6 text-sm text-gray-300">
-                  <div>• Peso total útil: <span className="font-bold">7,700 kg</span></div>
-                  <div>• Recuperación total: <span className="font-bold">83% (10,458 kg)</span></div>
-                  <div>• Ahorro estimado: <span className="font-bold">$9.5M (3 años)</span></div>
+                  <div>• Total useful weight: <span className="font-bold">7,700 kg</span></div>
+                  <div>• Total Recovery: <span className="font-bold">83% (10,458 kg)</span></div>
+                  <div>• Estimated savings: <span className="font-bold">$9.5M (3 años)</span></div>
                 </div>
               </div>
 
@@ -558,7 +558,7 @@ Date: ${new Date().toLocaleDateString()}
 
         </section>
 
-        <footer className="text-center text-xs text-gray-500">Exporta cada slide como imagen (click derecho) y úsalas en PowerPoint, Keynote o tu editor de vídeo.</footer>
+        <footer className="text-center text-xs text-gray-500">Export each slide as an image (right click) and use it in PowerPoint, Keynote, or your video editor.</footer>
       </div>
     );
   };
@@ -855,33 +855,33 @@ Date: ${new Date().toLocaleDateString()}
       <div className="space-y-6">
         <div className="bg-gradient-to-br from-orange-900 to-black p-6 rounded-lg border-2 border-orange-500">
           <div className="mb-8">
-            <h1 className="text-4xl font-bold mb-2 text-center">Sistema Integrado de Reciclaje Marciano</h1>
-            <p className="text-center text-orange-300 text-lg">Misión Cráter Jezero • Duración 3 Años • Tripulación 8 Personas</p>
+            <h1 className="text-4xl font-bold mb-2 text-center">Integrated Martian Recycling System</h1>
+            <p className="text-center text-orange-300 text-lg">Jezero Crater Mission • Duration 3 Years • Crew 8 People</p>
           </div>
 
           {/* System Overview Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
             <div className="bg-gray-800 p-4 rounded-lg border border-red-500">
               <div className="text-2xl font-bold text-red-400">{systemStats.totalInput}</div>
-              <div className="text-sm text-gray-400">Residuos Totales</div>
+              <div className="text-sm text-gray-400">Total Waste</div>
             </div>
             <div className="bg-gray-800 p-4 rounded-lg border border-green-500">
               <div className="text-2xl font-bold text-green-400">{systemStats.recoveryRate}</div>
-              <div className="text-sm text-gray-400">Tasa de Recuperación</div>
+              <div className="text-sm text-gray-400">Recovery Rate</div>
             </div>
             <div className="bg-gray-800 p-4 rounded-lg border border-yellow-500">
               <div className="text-2xl font-bold text-yellow-400">{systemStats.energyConsumption}</div>
-              <div className="text-sm text-gray-400">Uso de Energía</div>
+              <div className="text-sm text-gray-400">Energy Use</div>
             </div>
             <div className="bg-gray-800 p-4 rounded-lg border border-blue-500">
               <div className="text-2xl font-bold text-blue-400">{systemStats.crewTime}</div>
-              <div className="text-sm text-gray-400">Tiempo de Tripulación</div>
+              <div className="text-sm text-gray-400">Crew Time</div>
             </div>
           </div>
 
           {/* Scenario Selection */}
           <div className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">Fuentes de Entrada por Escenario</h2>
+            <h2 className="text-2xl font-bold mb-4">Input Sources by Scenario</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
               {Object.entries(scenarios).map(([key, scenario]) => {
                 const Icon = scenario.icon;
@@ -895,7 +895,7 @@ Date: ${new Date().toLocaleDateString()}
                   >
                     <Icon className="w-8 h-8 mb-2" />
                     <h3 className="font-bold text-lg">{scenario.name}</h3>
-                    <p className="text-sm mt-2">{scenario.inputs.length} categorías de materiales</p>
+                    <p className="text-sm mt-2">{scenario.inputs.length} material categories</p>
                   </button>
                 );
               })}
@@ -904,7 +904,7 @@ Date: ${new Date().toLocaleDateString()}
             {/* Display Selected Scenario Inputs */}
             {activeScenario !== 'all' && (
               <div className="bg-gray-800 p-6 rounded-lg border border-gray-700">
-                <h3 className="text-xl font-bold mb-4 text-red-400">Materiales de Entrada:</h3>
+                <h3 className="text-xl font-bold mb-4 text-red-400">Input Materials:</h3>
                 <ul className="space-y-2">
                   {scenarios[activeScenario].inputs.map((input, idx) => (
                     <li key={idx} className="flex items-start">
@@ -918,14 +918,14 @@ Date: ${new Date().toLocaleDateString()}
 
             {activeScenario === 'all' && (
               <div className="bg-gray-800 p-6 rounded-lg border border-gray-700">
-                <p className="text-center text-gray-400">Selecciona un escenario arriba para ver los materiales detallados</p>
+                <p className="text-center text-gray-400">Select a scenario above to view detailed materials</p>
               </div>
             )}
           </div>
 
           {/* Processing Systems */}
           <div className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">Procesos de Reciclaje</h2>
+            <h2 className="text-2xl font-bold mb-4">Recycling Processes</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {processes.map((process) => (
                 <div
@@ -944,7 +944,7 @@ Date: ${new Date().toLocaleDateString()}
                   {selectedProcess === process.id && (
                     <div className="space-y-4 mt-4 pt-4 border-t border-gray-700">
                       <div>
-                        <h4 className="font-semibold text-blue-400 mb-2">Entradas Procesadas:</h4>
+                        <h4 className="font-semibold text-blue-400 mb-2">Processed Inputs:</h4>
                         <div className="flex flex-wrap gap-2">
                           {process.inputs.map((input, idx) => (
                             <span key={idx} className="bg-blue-900 px-3 py-1 rounded-full text-xs">{input}</span>
@@ -953,7 +953,7 @@ Date: ${new Date().toLocaleDateString()}
                       </div>
                       
                       <div>
-                        <h4 className="font-semibold text-green-400 mb-2">Salidas Generadas:</h4>
+                        <h4 className="font-semibold text-green-400 mb-2">Generated Outputs:</h4>
                         <div className="flex flex-wrap gap-2">
                           {process.outputs.map((output, idx) => (
                             <span key={idx} className="bg-green-900 px-3 py-1 rounded-full text-xs">{output}</span>
@@ -963,18 +963,18 @@ Date: ${new Date().toLocaleDateString()}
 
                       <div className="grid grid-cols-3 gap-2 text-sm">
                         <div className="bg-gray-900 p-2 rounded">
-                          <div className="text-gray-400 text-xs">Eficiencia</div>
+                          <div className="text-gray-400 text-xs">Efficiency</div>
                           <div className="font-semibold">{process.efficiency}</div>
                         </div>
                         <div className="bg-gray-900 p-2 rounded">
                           <div className="text-gray-400 text-xs flex items-center gap-1">
-                            <Zap className="w-3 h-3" /> Energía
+                            <Zap className="w-3 h-3" /> Energy
                           </div>
                           <div className="font-semibold">{process.energyUse}</div>
                         </div>
                         <div className="bg-gray-900 p-2 rounded">
                           <div className="text-gray-400 text-xs flex items-center gap-1">
-                            <Droplet className="w-3 h-3" /> Agua
+                            <Droplet className="w-3 h-3" /> Water
                           </div>
                           <div className="font-semibold">{process.waterUse}</div>
                         </div>
@@ -983,7 +983,7 @@ Date: ${new Date().toLocaleDateString()}
                   )}
                   
                   {selectedProcess !== process.id && (
-                    <div className="text-xs text-gray-500 mt-2">Haz clic para expandir detalles</div>
+                    <div className="text-xs text-gray-500 mt-2">Click to expand details</div>
                   )}
                 </div>
               ))}
@@ -992,7 +992,7 @@ Date: ${new Date().toLocaleDateString()}
 
           {/* End Products */}
           <div className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">Productos Finales Generados</h2>
+            <h2 className="text-2xl font-bold mb-4">Final Products Generated</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {endProducts.map((category, idx) => (
                 <div key={idx} className="bg-gray-800 p-6 rounded-lg border border-gray-700">
@@ -1015,14 +1015,14 @@ Date: ${new Date().toLocaleDateString()}
 
           {/* Waste Management */}
           <div className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">Gestión de Residuos y Subproductos</h2>
+            <h2 className="text-2xl font-bold mb-4">Waste and By-product Management</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {/* Unusable Waste */}
               <div className="bg-red-950 p-6 rounded-lg border border-red-700">
                 <div className="flex items-center gap-2 mb-4">
                   <AlertCircle className="w-6 h-6 text-red-400" />
-                  <h3 className="font-bold text-lg text-red-400">Residuos No Utilizables ({systemStats.unusableWaste})</h3>
+                  <h3 className="font-bold text-lg text-red-400">Unusable Waste ({systemStats.unusableWaste})</h3>
                 </div>
                 <div className="space-y-3">
                   {wasteStreams.unusable.map((waste, idx) => (
@@ -1034,7 +1034,7 @@ Date: ${new Date().toLocaleDateString()}
                   ))}
                 </div>
                 <div className="mt-4 p-3 bg-gray-900 rounded text-sm">
-                  <strong>Método de Disposición:</strong> Comprimido y sellado en unidades de contención, almacenado en área designada en la superficie marciana, alejado del hábitat y zonas de operación.
+                  <strong>Method of Disposition:</strong> Compressed and sealed in containment units, stored in a designated area on the Martian surface, away from habitat and operating areas.
                 </div>
               </div>
 
@@ -1042,7 +1042,7 @@ Date: ${new Date().toLocaleDateString()}
               <div className="bg-green-950 p-6 rounded-lg border border-green-700">
                 <div className="flex items-center gap-2 mb-4">
                   <CheckCircle className="w-6 h-6 text-green-400" />
-                  <h3 className="font-bold text-lg text-green-400">Subproductos Valiosos</h3>
+                  <h3 className="font-bold text-lg text-green-400">Valuable By-Products</h3>
                 </div>
                 <div className="space-y-3">
                   {wasteStreams.byproducts.map((byproduct, idx) => (
@@ -1050,7 +1050,7 @@ Date: ${new Date().toLocaleDateString()}
                       <div className="font-semibold text-sm">{byproduct.material}</div>
                       <div className="text-xs text-green-300 mt-1">{byproduct.usage}</div>
                       <div className="text-xs text-gray-400 mt-1">
-                        <strong>Estado:</strong> {byproduct.disposition}
+                        <strong>State:</strong> {byproduct.disposition}
                       </div>
                     </div>
                   ))}
@@ -1061,42 +1061,42 @@ Date: ${new Date().toLocaleDateString()}
 
           {/* System Flow Overview */}
           <div className="bg-gradient-to-r from-gray-800 to-gray-900 p-6 rounded-lg border border-gray-700">
-            <h2 className="text-2xl font-bold mb-4">Resumen del Sistema Completo</h2>
+            <h2 className="text-2xl font-bold mb-4">Complete System Summary</h2>
             <div className="space-y-4 text-sm">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="bg-blue-900 bg-opacity-30 p-4 rounded">
-                  <h3 className="font-bold mb-2 text-blue-400">Etapa de Entrada</h3>
-                  <p>Los materiales recolectados de los tres escenarios se clasifican por composición. Los miembros de la tripulación dedican ~2 hrs/semana a la clasificación inicial y preparación.</p>
+                  <h3 className="font-bold mb-2 text-blue-400">Input Stage</h3>
+                  <p>Materials collected from the three scenarios are sorted by composition. Crew members spend approximately 2 hours/week on initial sorting and preparation.</p>
                 </div>
                 <div className="bg-purple-900 bg-opacity-30 p-4 rounded">
                   <h3 className="font-bold mb-2 text-purple-400">Etapa de Procesamiento</h3>
-                  <p>Seis sistemas de procesamiento paralelos manejan diferentes tipos de materiales. El monitoreo automatizado requiere ~3 hrs/semana de intervención de la tripulación para mantenimiento y ajustes.</p>
+                  <p>Six parallel processing systems handle different types of materials. Automated monitoring requires approximately three hours/week of crew intervention for maintenance and adjustments.</p>
                 </div>
                 <div className="bg-green-900 bg-opacity-30 p-4 rounded">
-                  <h3 className="font-bold mb-2 text-green-400">Etapa de Salida</h3>
-                  <p>Los materiales procesados alimentan la fabricación aditiva. La tripulación dedica ~1 hr/semana al control de calidad y acabado de productos.</p>
+                  <h3 className="font-bold mb-2 text-green-400">Output Stage</h3>
+                  <p>The processed materials feed into additive manufacturing. The crew spends approximately 1 hour/week on quality control and product finishing.</p>
                 </div>
               </div>
               
               <div className="bg-gray-900 p-4 rounded">
-                <h3 className="font-bold mb-2 text-yellow-400">Integración de Recursos</h3>
+                <h3 className="font-bold mb-2 text-yellow-400">Resource Integration</h3>
                 <ul className="space-y-1 ml-4">
-                  <li>• El calor residual de los procesos térmicos reduce las necesidades de calefacción del hábitat en un 20%</li>
-                  <li>• Las aguas residuales del procesamiento de fibras se reciclan a través de los sistemas de soporte vital</li>
-                  <li>• El carbono de la extracción de CO2 crea 18,500+ ladrillos de regolito para expansión</li>
-                  <li>• Gas de síntesis almacenado como combustible de respaldo de emergencia (equivalente a 8 horas de energía)</li>
-                  <li>• Los aceites de hidrocarburos reemplazan el 60% de las necesidades de reabastecimiento de lubricantes</li>
+                  <li>• Waste heat from thermal processes reduces the heating needs of the habitat by 20%.</li>
+                  <li>• Wastewater from fiber processing is recycled through life support systems</li>
+                  <li>• Carbon from CO2 extraction creates 18,500+ regolith bricks for expansion</li>
+                  <li>• Synthesis gas stored as emergency backup fuel (equivalent to 8 hours of power)</li>
+                  <li>• Hydrocarbon oils replace 60% of lubricant replenishment needs</li>
                 </ul>
               </div>
 
               <div className="bg-gray-900 p-4 rounded">
-                <h3 className="font-bold mb-2 text-red-400">Protocolos de Seguridad</h3>
+                <h3 className="font-bold mb-2 text-red-400">Security Protocols</h3>
                 <ul className="space-y-1 ml-4">
-                  <li>• Sin incineración o quema abierta (previene emisiones tóxicas)</li>
-                  <li>• Sistemas químicos de circuito cerrado previenen la generación de PFAS</li>
-                  <li>• Los sistemas de filtración capturan &gt;99.7% de microplásticos de aguas residuales</li>
-                  <li>• Los procesos térmicos operan en ambiente libre de oxígeno (previene combustión)</li>
-                  <li>• Materiales contaminados aislados y almacenados por separado</li>
+                  <li>• No incineration or open burning (prevents toxic emissions)</li> 
+                  <li>• Closed-loop chemical systems prevent PFAS generation</li> 
+                  <li>• Filtration systems capture &gt;99.7% of microplastics from wastewater</li>
+                  <li>• Thermal processes operate in an oxygen-free environment (prevents combustion)</li> 
+                  <li>• Contaminated materials are isolated and stored separately</li>
                 </ul>
               </div>
             </div>
@@ -1104,7 +1104,7 @@ Date: ${new Date().toLocaleDateString()}
 
           {/* Footer */}
           <div className="mt-8 text-center text-gray-500 text-sm">
-            <p>Sistema diseñado para las condiciones de la misión del Cráter Jezero • Escalable para expansión de tripulación • Modular para diferentes perfiles de misión</p>
+            <p>System designed for the conditions of the Jezero Crater mission • Scalable for crew expansion • Modular for different mission profiles</p>
           </div>
         </div>
       </div>
@@ -1127,7 +1127,7 @@ Date: ${new Date().toLocaleDateString()}
             >
               <div className="flex items-center justify-center gap-2">
                 <Home className="w-5 h-5" />
-                Página Principal
+                Home Page
               </div>
             </button>
             <button
